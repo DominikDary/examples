@@ -34,7 +34,7 @@ module "dcos" {
   # dcos_license_key_contents = "${file("~/license.txt")}"
   dcos_variant = "open"
 
-  dcos_version              = "1.13.3"
+  dcos_version              = "2.0.0-beta"
   ansible_bundled_container = "mesosphere/dcos-ansible-bundle:feature-windows-support-d513b6d"
 
   # provide a SHA512 hashed password, here "deleteme"
